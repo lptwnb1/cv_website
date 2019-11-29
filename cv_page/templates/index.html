@@ -324,7 +324,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
               <div class="tab_img">
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a href="{% static "images/g1.png" %}" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+                    <a href="{% static "images/g1.png" %}" class="swipebox" title="this is title">
                       <img src="{% static 'images/g1.png' %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -379,15 +379,24 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a href="images/g6.png" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+                    <a id="link1">
                       <img src="{% static "images/g6.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
                         <p>Sarah likes to watch clouds. She's quite depressed.</p>
                       </div>
-                    </a>  
+                    </a>
                   </div>
                 </div>
+                <script type="text/javascript">
+                $( '#link1' ).click( function( e ) {
+                    e.preventDefault();
+                    $.swipebox( [
+                      { href:"{% static 'images/g6.png' %}", title:'My Caption' }, 
+                      { href:"{% static 'images/g5.png' %}", title:'My Second Caption' }
+                    ] );
+                  } );
+                </script>
                 <div class="clearfix"> </div>
               </div>
             </div>
