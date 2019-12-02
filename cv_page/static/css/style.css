@@ -806,7 +806,8 @@ h3.title {
     margin-bottom: 0.6em;
 }
 #swipebox-title {
-    font-size: 0.9em;
+    font-size: 1.5em;
+    color: blue;
 }
 }
 @media(max-width:768px){
