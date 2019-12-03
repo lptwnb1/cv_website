@@ -18,7 +18,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   {% load static %}
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style.css' %}">
-  <link rel="stylesheet" href="{% static 'css/swipebox.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css" integrity="sha256-5KRlt3ls3xVyu0Fv7M6hvDH0wCDqHraymjiBtOAhZZU=" crossorigin="anonymous" />
 <!--//Custom Theme files-->
 <!--js-->
 <script src="{% static 'js/jquery-1.11.1.min.js' %}"></script> 
@@ -324,7 +324,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
               <div class="tab_img">
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class="novel_startup">
+                    <a href="{% static "images/g1.png" %}" class="novel_startup">
                       <img src="{% static 'images/g1.png' %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -335,7 +335,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid effect-sarah">
-                    <a class="doctor_startup">
+                    <a href="{% static "images/g2.png" %}" class="doctor_startup">
                       <img src="{% static "images/g2.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -346,7 +346,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class="meng_startup">
+                    <a href="{% static "images/g3.png" %}" class="meng_startup">
                       <img src="{% static "images/g3.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -357,7 +357,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class='cv_project'>
+                    <a href="{% static "images/g4.png" %}" class='cv_project'>
                       <img src="{% static "images/g4.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -368,7 +368,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class='android_project'>
+                    <a href="{% static "images/g5.png" %}" class='android_project'>
                       <img src="{% static "images/g5.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -379,7 +379,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class="advisor_manman">
+                    <a href="{% static "images/g6.png" %}" class="advisor_manman">
                       <img src="{% static "images/g6.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -395,7 +395,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
               <div class="tab_img">
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class="novel_startup">
+                    <a href="{% static "images/g1.png" %}" class="novel_startup">
                       <img src="{% static 'images/g1.png' %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -418,7 +418,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class="doctor_startup">
+                    <a href="{% static "images/g2.png" %}" class="doctor_startup">
                       <img src="{% static "images/g2.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -440,7 +440,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class="meng_startup">
+                    <a href="{% static "images/g3.png" %}" class="meng_startup">
                       <img src="{% static "images/g3.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -466,7 +466,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
               <div class="tab_img">
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class='cv_project'>
+                    <a href="{% static "images/g4.png" %}" class='cv_project'>
                       <img src="{% static "images/g4.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -485,7 +485,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class='android_project'>
+                    <a href="{% static "images/g5.png" %}" class='android_project'>
                       <img src="{% static "images/g5.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -509,7 +509,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
               <div class="tab_img">
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a class="advisor_manman">
+                    <a href="{% static "images/g6.png" %}" class="advisor_manman">
                       <img src="{% static "images/g6.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
                         <h3>My<span> Project</span></h3>
@@ -545,7 +545,7 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
       </script>
       <!--//ResponsiveTabs-->
       <!-- swipe box js -->
-      <script src="{% static 'js/jquery.swipebox.min.js' %}"></script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js" integrity="sha256-Yc+GwTnlWzpuQ6grDKOT67UA8d1M4Fx33JkNqX3Ke50=" crossorigin="anonymous"></script>
         <script type="text/javascript">
           jQuery(function($) {
             $(".swipebox").swipebox();
