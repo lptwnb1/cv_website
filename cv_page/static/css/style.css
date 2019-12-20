@@ -33,7 +33,7 @@ body a:hover{
 }
 /*--baner--*/
 .banner {
-	background:url(../images/a.jpg)no-repeat center 0px;
+	background:url(../images/IMGa2.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -75,36 +75,53 @@ body a:hover{
     border-color: #F3E000 transparent transparent transparent;
 }
 .header-right h6 {
-    font-size: 1em;
+    font-size: 1.4em;
     color: #C7C7C7;
     margin-top: 0.8em;
     letter-spacing: 6px;
 }
 ul.address {
-    margin-top: 2em;
-    border-top: 1px solid #AFAFAF;
-    padding-top: 0.5em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 ul.address li {
+    float: left;
+}
+ul.address li a{
     display: block;
+    color: white;
 }
-ul.address li ul.address-text li {
-    display: inline-block;
-    font-size: 1.2em;
-    color: #fff;
-    margin-top: 1em;
-	font-weight: 100;
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px 12px 0 0;
+  border-radius: 50%;
 }
-ul.address li ul.address-text li:nth-child(1){
-	width: 20%;
+
+.fa:hover {
+    opacity: 0.7;
 }
-ul.address li ul.address-text li a {
-    color: #fff;
-	text-decoration:none;
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
-ul.address li ul.address-text li a:hover{
-    color: #0FF;
+
+.fa-github {
+  background: #000000;
+  color: white;
 }
+
+.fa-file-pdf-o {
+  background: #333333;
+  color: white;
+}
+
 /*--//banner-top--*/
 /*--top-nav--*/
 .top-nav {
@@ -146,7 +163,7 @@ h3.title {
 	margin-bottom: 1em;
 }
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #999;
     line-height: 1.8em;
 }
@@ -804,10 +821,6 @@ h3.title {
 h3.title {
     font-size: 3.3em;
     margin-bottom: 0.6em;
-}
-#swipebox-title {
-    font-size: 1.5em;
-    color: blue;
 }
 }
 @media(max-width:768px){

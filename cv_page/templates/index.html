@@ -19,6 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style.css' %}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css" integrity="sha256-5KRlt3ls3xVyu0Fv7M6hvDH0wCDqHraymjiBtOAhZZU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--//Custom Theme files-->
 <!--js-->
 <script src="{% static 'js/jquery-1.11.1.min.js' %}"></script> 
@@ -45,38 +46,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div id="home" class="banner">
     <div class="banner-info">
       <div class="container">
-        <div class="col-md-4 header-left">
-          <img src="{% static "images/img1.jpg" %}" alt=""/>
+        <div class="col-md-3 header-left">
+          <img src="{% static "images/IMG_3522.jpg" %}" alt=""/>
         </div>
-        <div class="col-md-8 header-right">
+        <div class="col-md-9 header-right">
           <h2>Hello</h2>
           <h1>I'm Ping Lin</h1>
-          <h6>Voracious Learner and Entrepreneur</h6>
+          <h6>A mother, dreamer, doer.</h6>
           <ul class="address">
-            <li>
-              <ul class="address-text">
-                <li><b>PHONE </b></li>
-                <li>+886 972 095 308</li>
-              </ul>
-            </li>
-            <li>
-              <ul class="address-text">
-                <li><b>ADDRESS </b></li>
-                <li>237-3 Huiming Road, Yuanshan Township,Yilan County, Taiwan.</li>
-              </ul>
-            </li>
-            <li>
-              <ul class="address-text">
-                <li><b>E-MAIL </b></li>
-                <li><a href="mailto:ping.lin@kosbrother.com"> ping.lin@kosbrother.com</a></li>
-              </ul>
-            </li>
-            <li>
-              <ul class="address-text">
-                <li><b>WEBSITE </b></li>
-                <li><a href="https://still-peak-20013.herokuapp.com/cv_page/">My Resume</a></li>
-              </ul>
-            </li>
+            <li><a href="https://www.linkedin.com/in/pinglintw/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/lptwnb1"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-file-pdf-o"></i></a></li>
           </ul>
         </div>
         <div class="clearfix"> </div>
@@ -100,7 +80,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <li><a href="#work" class="scroll">Experience</a></li>
             <li><a href="#education" class="scroll">Education</a></li>
             <li><a href="#skills" class="scroll">Skills</a></li>
-            <li><a href="#projects" class="scroll">My Projects</a></li>
+            <li><a href="#projects" class="scroll">Projects</a></li>
             <li><a href="#contact" class="scroll">Contact</a></li>
           </ul>
           <div class="clearfix"> </div>
@@ -113,22 +93,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div id="about" class="about">
     <div class="container">
       <h3 class="title"> About Me</h3>
-      <div class="col-md-8 about-left">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet sem sit amet dolor luctus pellentesque. Pellentesque eleifend tellus at interdum elementum. Nam egestas molestie elit. Vivamus sed accumsan quam, a mollis magna. Nam aliquet eros eget sapien consequat tincidunt at vel nibh. Duis ut turpis mi. Duis nec scelerisque urna, sit amet varius arcu. Aliquam aliquet sapien quis mauris semper suscipit. Maecenas pharetra dapibus posuere. Praesent odio sem, varius quis dolor vel, maximus dapibus mi. Pellentesque mattis mauris neque. Nam aliquam turpis ante, at cursus massa ullamcorper ut. Proin id diam id nisi sagittis pellentesque sed sit amet eros.  
-        In porttitor tempus nulla, a porta purus commodo sed. Praesent hendrerit nisi nunc, ut porttitor justo pellentesque et ac gravida sem mattis. Donec ornare justo nec</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet sem sit amet dolor luctus pellentesque Nam egestas molestie elit. Vivamus sed accumsan quam, a mollis magna. Nam aliquet eros eget sapien consequat</p>
+      <div class="col-md-12">
+        <p>Reading, learning, and making stuff are my favorites. Please scroll below to read my journey from banking to tech. You may find more details in my resume. 
+        <br><br>
+        My latest learning interests are data science and programming. With these skills, I hope to work on projects relating to disinformation and promoting constructive conversation in democratic societies.
+        <br><br>
+        Originally from central Taiwan, our family of four now calls Yilan home because we love the mountains and people in Eastern Taiwan so much. Before the kids, my husband and I enjoy rock climbing and hiking. Now we are amateur farmers who have more fun playing with the mud than counting harvest. As a hobby, I make lots of soaps.
+        </p>
       </div>
-      <div class="col-md-4 about-right">
-        <ul>
-          <h5>Awards</h5>
-          <li><span class="glyphicon glyphicon-menu-right"></span> Lorem ipsum dolor sit amet cingelit</li>
-          <li><span class="glyphicon glyphicon-menu-right"></span> Curabitur id metus rutrum convallis</li>
-          <li><span class="glyphicon glyphicon-menu-right"></span> Morbi dictum velit vitae porttitor</li>
-          <li><span class="glyphicon glyphicon-menu-right"></span> Fusce at metus id justo ullamcorper</li>
-          <li><span class="glyphicon glyphicon-menu-right"></span> Aliquam ac nisl id justo malesuada </li>
-        </ul>
-        <div class="clearfix"> </div>
-      </div>
+      <!-- delete awards -->
       <div class="clearfix"> </div>
     </div>
   </div>
@@ -139,19 +112,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       <h3 class="title">Work Experience</h3>
       <div class="work-info"> 
         <div class="col-md-6 work-left"> 
-          <h4>2015 - 2019 Co-founder</h4>
+          <h4>2015 - Present Co-founder</h4>
         </div>
         <div class="col-md-6 work-right"> 
           <h5> <span class="glyphicon glyphicon-briefcase"></span>  Chi Jia Technology Co., Ltd.</h5>
           <p>
-            Strategy &amp; Management @ lifehappinesstw.com 2019 — Present<br>
-- Identify and seek growth opportunities. Formulate business goals and supervise performance.<br>
-Business Development &amp; Operations &amp; Finance @ mmwooo.com 2016 — 2019<br>
-- Ran digital marketing campaigns. Grew members to 100K+ and app downloads to 150K in 6 months.<br>
-- Optimized customer acquisition and retention rate through user data analysis and A/B testing.<br>
-- Headed procurement and set pricing for a product portfolio of 2500+ stock-keeping units. Designed and led<br>
-the development of an ERP system to improve operational efficiency and implement data-driven management.<br>
-- Recruited and supervised a staff of 15+. Controlled finances to ensure working capital surplus.</p>
+          Chi-Jia in Mandarin means to harmonize the family. Our eCommerce services were built with the vision to improve the quality of life for each member of the family. lifehappiness.com (2018~present) was born out of a mother’s care to provide safe and durable cookware. With a love for humor, mmwooo.com (2016~2018) introduced fun accessories to our fans to pamper the youngsters and their inner children.
+          </p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -161,10 +128,9 @@ the development of an ERP system to improve operational efficiency and implement
         </div>
         <div class="col-md-6 work-right work-right2"> 
           <h5><span class="glyphicon glyphicon-briefcase"></span> Y.L Textile Co., Ltd. </h5>
-          <p>Advised the e-Commerce startup Mammam.com on branding since inception. Built online presence from scratch.<br>
-- Set up and managed content on social media to accumulate a fan base. Created a prototype website with Wix.<br>
-- Collected and analyzed user data to facilitate business decisions.<br>
-- Designed online advertising and achieved an ROI of 3500%+. Grew monthly sales to USD10K+ from 0. </p>
+          <p>
+          Taiwan is known for our strong OEM/ODM capability, yet Taiwanese manufacturers must move up the value chain as we face grimmer competition from countries with lower production costs. Mammam.com was set up as an effort to bridge a traditional fabric factory from its declining B2B business to the fast-growing online B2C market. I built its online presence through various channels and executed digital marketing campaigns. Joining the digital transition for this three-generation enterprise that represents a part of Taiwan history was a truly inspiring experience for me.
+          </p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -174,11 +140,9 @@ the development of an ERP system to improve operational efficiency and implement
         </div>
         <div class="col-md-6 work-right"> 
           <h5><span class="glyphicon glyphicon-briefcase"></span> Kosbrother. Inc. </h5>
-          <p>The company specialized in website and app development. 5 apps achieved 100m+ downloads on Google Play.<br>
-- Redesigned NovelKing features through data analysis. Achieved 1.6m+ downloads. Increased average time
-spent per active period to 15 minutes. Grew advertisement revenue by 500%+ to USD10K+.<br>
-- Launched DoctorGuide, a platform for searching and reviewing doctors. Led a team to consolidate and clean
-data from different web sources to construct a database covering 43K (90%) doctors in Taiwan in 2 weeks. </p>
+          <p>
+          Fortunately, NovelKing was profitable enough for me to devote full-time to the company. As new parents, my husband and I opted for a virtual organization when building the company. Managing a remote team turned out to be a challenging yet liberating task. Later I launched DoctorGuide with an aim to improve information circulation and administration efficiency of the medical system.
+          </p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -188,8 +152,9 @@ data from different web sources to construct a database covering 43K (90%) docto
         </div>
         <div class="col-md-6 work-right"> 
           <h5><span class="glyphicon glyphicon-briefcase"> </span> Taipei Fubon Commercial Bank</h5>
-          <p>In charge of Taipei desk of the Greater China syndication team. Coordinated with Hong Kong desk to bridge the funding
-needs of large enterprises from China to Taiwanese banks. Constructed financial models for pricing and risk evaluation.</p>
+          <p>
+          To take a step further, I switched to Syndication where the product structure was more complicated and the market was wider, covering the Greater China region. I cooperated with the Hong Kong desk to solicit mandates and attract subscriptions from other financial institutions. At the same time, my interest in the information economy grew. A fervent bookworm myself, I joined my husband in developing NovelKing as a side-project.
+         </p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -199,8 +164,9 @@ needs of large enterprises from China to Taiwanese banks. Constructed financial 
         </div>
         <div class="col-md-6 work-right"> 
           <h5><span class="glyphicon glyphicon-briefcase"> </span>Standard Chartered Bank (Taiwan) Limited</h5>
-          <p>International Corporate Team. Oversaw customer portfolios for 100+ listed companies and multinational corporations
-with team leaders. Analyzed data to develop managerial reports to facilitate business decisions.</p>
+          <p>
+          While in Standard Chartered, I aided MNC clients for their global capital market activities. On top of that, I formed a keen security awareness learning from the internal control measures in this 87,000-employee enterprise, such as segregation of duties, authorization, and IT controls.
+          </p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -210,8 +176,9 @@ with team leaders. Analyzed data to develop managerial reports to facilitate bus
         </div>
         <div class="col-md-6 work-right"> 
           <h5><span class="glyphicon glyphicon-briefcase"> </span> Taishin International Bank</h5>
-          <p>Industrial Finance Department. Conducted quantitative and qualitative researches to assess credit risks. Pursued sales
-for banking products. Grew loan by 181 % and deposit by 287%. Achieved USD2M+ team profits in 2012H1</p>
+          <p>
+          Two years in a team with hyper sales growth instilled in me the pragmatic and market-facing approach that benefited me tremendously in later positions and the startup journey. I also learned the concept of balancing risk and return, which I continue to apply in life and business pursuits.
+          </p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -228,9 +195,7 @@ for banking products. Grew loan by 181 % and deposit by 287%. Achieved USD2M+ te
         </div>
         <div class="col-md-6 work-right"> 
           <h5><span class="glyphicon glyphicon-education"> </span> National Taiwan University</h5>
-          <p>- Student Representative for Class of 2010.<br>
-- Master&#39;s thesis: Forecasting Sales Volume of Industrial Product with Firm Heterogeneity—Case of Mobile
-Phone Chipset (using Hierarchical Bayesian Model).</p>
+          <p></p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -261,14 +226,14 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
       <h3 class="title">Skills</h3>
       <div class="skills-info">
         <div class="col-md-6 bar-grids">
-          <h6>Creativity  <span> 80% </span></h6>
+          <h6>Creative Thinking<span> 80% </span></h6>
           <div class="progress">
             <div class="progress-bar progress-bar-striped active" style="width: 80%">
             </div>
           </div>
-          <h6>Management <span> 70% </span></h6>
+          <h6>Leadership<span>80%</span></h6>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped active" style="width: 70%">
+            <div class="progress-bar progress-bar-striped active" style="width: 80%">
             </div>
           </div>
           <h6>Communication<span>90% </span></h6>
@@ -278,24 +243,24 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
           </div>
         </div>
         <div class="col-md-6 bar-grids">
-          <h6>PROJECT MANAGEMENT <span> 85% </span></h6>
+          <h6>Project Managment<span> 80% </span></h6>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped active" style="width: 85%">
+            <div class="progress-bar progress-bar-striped active" style="width: 80%">
             </div>
           </div>
-          <h6>SOCIAL MEDIA MARKETING<span> 95% </span></h6>
+          <h6>Social Media Marketing<span> 80% </span></h6>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped active" style="width: 95%">
+            <div class="progress-bar progress-bar-striped active" style="width: 80%">
             </div>
           </div>
-          <h6>Programming <span> 65% </span></h6>
+          <h6>Programming <span> 60% </span></h6>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped active" style="width: 65%">
+            <div class="progress-bar progress-bar-striped active" style="width: 60%">
             </div>
           </div>
         </div>
         <div class="col-md-12 bar-grids">
-          <h6>Willpower to Learn <span> 100% </span></h6>
+          <h6>Grit and Passion for Lifelong Learning <span> 100% </span></h6>
           <div class="progress">
             <div class="progress-bar progress-bar-striped active" style="width: 100%">
             </div>
@@ -327,8 +292,8 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g1.png" %}" class="novel_startup">
                       <img src="{% static 'images/g1.png' %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>NovelKing</span></h3>
+                        <p>One of the largest platform for online Chinese novels.</p>
                       </div>
                     </a>
                   </div>
@@ -338,8 +303,8 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g2.png" %}" class="doctor_startup">
                       <img src="{% static "images/g2.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>DoctorGuide</h3>
+                        <p>Search doctors by syptoms, locations, and ratings.</p>
                       </div>
                     </a>
                   </div>
@@ -349,8 +314,8 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g3.png" %}" class="meng_startup">
                       <img src="{% static "images/g3.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>mmwooo.com</h3>
+                        <p>Online store for fun little items.</p>
                       </div>
                     </a>
                   </div>
@@ -360,30 +325,32 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g4.png" %}" class='cv_project'>
                       <img src="{% static "images/g4.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>Personal Website</span></h3>
+                        <p>Used Python(Django), HTML, CSS, JavaScript.
+                        </p>
                       </div>
                     </a>
                   </div>
                 </div>
+                <!-- delete ongoing project -->
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a href="{% static "images/g5.png" %}" class='android_project'>
+                    <a href="{% static "images/g5.png" %}" class="advisor_mammam">
                       <img src="{% static "images/g5.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>mammam.com</span></h3>
+                        <p>Brought a 85-year-old fabric ODM to online retailing.</p>
                       </div>
                     </a>
                   </div>
                 </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a href="{% static "images/g6.png" %}" class="advisor_manman">
+                    <a href="{% static "images/g6.png" %}" class="happy_startup">
                       <img src="{% static "images/g6.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>lifehappiness.com</h3>
+                        <p>Online store for safe and durable cookware.</p>
                       </div>
                     </a>
                   </div>
@@ -398,19 +365,19 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g1.png" %}" class="novel_startup">
                       <img src="{% static 'images/g1.png' %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>NovelKing</span></h3>
+                        <p>One of the largest platform for online Chinese novels.</p>
                       </div>
                     </a>
                     <script type="text/javascript">
                       $( '.novel_startup' ).click( function( e ) {
                           e.preventDefault();
                           $.swipebox( [
-                            { href:"{% static 'images/nonelking/index_novel.png' %}", title:'My Caption' }, 
-                            { href:"{% static 'images/nonelking/category_novel.png' %}", title:'My Second Caption' },
-                            { href:"{% static 'images/nonelking/introduction_novel.png' %}", title:'My Second Caption' },
-                            { href:"{% static 'images/nonelking/article_novel.png' %}", title:'My Second Caption' },
-                            { href:"{% static 'images/nonelking/tablet_novel.png' %}", title:'My Second Caption' },
+                            { href:"{% static 'images/nonelking/index_novel.png' %}", title:'NovelKing sourced over 70,000 online novles.' }, 
+                            { href:"{% static 'images/nonelking/category_novel.png' %}", title:'I periodically regrouped and rearranged the book catogories through usder behavior analysis.This approach was effective in increasing active time per period.' },
+                            { href:"{% static 'images/nonelking/introduction_novel.png' %}", title:'Some features were added per suggestions from key users, such as allowing them to arrange chapters reversely.' },
+                            { href:"{% static 'images/nonelking/article_novel.png' %}", title:'We included typical features for e-readers, such as night mode and bookmark.' },
+                            { href:"{% static 'images/nonelking/tablet_novel.png' %}", title:'In response to more tablet users, NovelKing was made compatible with tablets.' },
                           ] );
                         } );
                     </script> 
@@ -421,18 +388,18 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g2.png" %}" class="doctor_startup">
                       <img src="{% static "images/g2.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>DoctorGuide</span></h3>
+                        <p>Search doctors by syptoms, locations, and ratings.</p>
                       </div>
                     </a>
                     <script type="text/javascript">
                       $( '.doctor_startup' ).click( function( e ) {
                           e.preventDefault();
                           $.swipebox( [
-                            { href:"{% static 'images/doctor/appflow.png' %}", title:'My Caption' }, 
-                            { href:"{% static 'images/doctor/web_page.png' %}", title:'My Second Caption' },
-                            { href:"{% static 'images/doctor/app_1.jpg' %}", title:'My Second Caption' },
-                            { href:"{% static 'images/doctor/app_2.jpg' %}", title:'My Second Caption' }
+                            { href:"{% static 'images/doctor/appflow.png' %}", title:'I designed this appflow based on my own experience with searching the doctors.' }, 
+                            { href:"{% static 'images/doctor/web_page.png' %}", title:'This was the web view.' },
+                            { href:"{% static 'images/doctor/app_1.jpg' %}", title:'Users could refine the search results by locations, one of the key consideration for choosing a doctor.' },
+                            { href:"{% static 'images/doctor/app_2.jpg' %}", title:'We collected reviews online and encouraged users to share their experiences.' }
                           ] );
                         } );
                     </script>
@@ -443,17 +410,40 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g3.png" %}" class="meng_startup">
                       <img src="{% static "images/g3.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>mmwooo.com</span></h3>
+                        <p>Online store for fun little items.</p>
                       </div>
                     </a>
                     <script type="text/javascript">
                       $( '.meng_startup' ).click( function( e ) {
                           e.preventDefault();
                           $.swipebox( [
-                            { href:"{% static 'images/mengmeng/app_3.jpg' %}", title:'My Caption' }, 
-                            { href:"{% static 'images/mengmeng/app_1.jpg' %}", title:'My Second Caption' },
-                            { href:"{% static 'images/mengmeng/app_2.jpg' %}", title:'My Second Caption' }
+                            { href:"{% static 'images/mengmeng/app_1.jpg' %}", title:'This was our original view.' }, 
+                            { href:"{% static 'images/mengmeng/app_2.jpg' %}", title:'We later changed to the orange cat theme after user surveys.' },
+                            { href:"{% static 'images/mengmeng/app_3.jpg' %}", title:'Users could share their favorites with friends, which was a popular feature among teenage girls.' },
+                            { href:"{% static 'images/mengmeng/app_4.jpg' %}", title:'We incorporated social media interactions in the app. Most of our initial fans were acquired through Facebook.' }
+                          ] );
+                        } );
+                    </script>
+                  </div>
+                </div>
+                 <div class="col-md-4 portfolio-grids">
+                  <div class="grid">
+                    <a href="{% static "images/g6.png" %}" class="happy_startup">
+                      <img src="{% static "images/g6.png" %}" alt="" class="img-responsive"/>
+                      <div class="figcaption">
+                        <h3>lifehappiness.com</span></h3>
+                        <p>Online store for safe and durable cookware.</p>
+                      </div>
+                    </a>
+                    <script type="text/javascript">
+                      $( '.happy_startup' ).click( function( e ) {
+                          e.preventDefault();
+                          $.swipebox( [
+                            { href:"{% static 'images/lifehappiness/web1.png' %}", title:'We worked closely with mother groups to find their pain points when developing products.' }, 
+                            { href:"{% static 'images/lifehappiness/app1.jpg' %}", title:'Influencer marketing is quite effective among Taiwanese mothers. We host activities and provide cooking tutorials to cultivate fanbase.' },
+                            { href:"{% static 'images/lifehappiness/web2.png' %}", title:'Our value propositions are safety and durability. Our products underwent rigorous testings from FDA, SGS, and TÜV.' },
+                            { href:"{% static 'images/lifehappiness/app2.jpg' %}", title:'We also distribute quality products from several Taiwanese brands who desire to exploit the potential of online market.' }
                           ] );
                         } );
                     </script>
@@ -469,61 +459,44 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
                     <a href="{% static "images/g4.png" %}" class='cv_project'>
                       <img src="{% static "images/g4.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>personal website</span></h3>
+                        <p>Used Python(Django), HTML, CSS, JavaScript.</p>
                       </div>
                     </a>
                     <script type="text/javascript">
                       $( '.cv_project' ).click( function( e ) {
                           e.preventDefault();
                           $.swipebox( [
-                            { href:"{% static 'images/g4.png' %}", title:'My Caption' }
+                            { href:"{% static 'images/g4.png' %}", title:'I modified an authorized third-party template to practice my coding skills. ' }
                           ] );
                         } );
                     </script>
                   </div>
                 </div>
-                <div class="col-md-4 portfolio-grids">
-                  <div class="grid">
-                    <a href="{% static "images/g5.png" %}" class='android_project'>
-                      <img src="{% static "images/g5.png" %}" alt="" class="img-responsive"/>
-                      <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
-                      </div>
-                    </a>
-                    <script type="text/javascript">
-                      $( '.android_project' ).click( function( e ) {
-                          e.preventDefault();
-                          $.swipebox( [
-                            { href:"{% static 'images/g5.png' %}", title:'My Caption' }
-                          ] );
-                        } );
-                    </script>
-                  </div>
-                </div>
-                <div class="clearfix"> </div>
               </div>
             </div>
             <div class="tab-1 resp-tab-content">
               <div class="tab_img">
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
-                    <a href="{% static "images/g6.png" %}" class="advisor_manman">
-                      <img src="{% static "images/g6.png" %}" alt="" class="img-responsive"/>
+                    <a href="{% static "images/g5.png" %}" class="advisor_mammam">
+                      <img src="{% static "images/g5.png" %}" alt="" class="img-responsive"/>
                       <div class="figcaption">
-                        <h3>My<span> Project</span></h3>
-                        <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                        <h3>mammam.com</span></h3>
+                        <p>Brought a 85-year-old fabric ODM to online retailing.</p>
                       </div>
                     </a>
                     <script type="text/javascript">
-                      $( '.advisor_manman' ).click( function( e ) {
+                      $( '.advisor_mammam' ).click( function( e ) {
                           e.preventDefault();
                           $.swipebox( [
-                            { href:"{% static 'images/g6.png' %}", title:'My Caption' }
+                            { href:"{% static 'images/mammam/web1.png' %}", title:'The company originally specializes in high-end designer fabric ODM. I advised them to tap the online retailing market as the growth momentum for the next generation.' },
+                            { href:"{% static 'images/mammam/ad1.png' %}", title:'I built its fanpage and notably increased their reach on the internet.' },
+                            { href:"{% static 'images/mammam/ad2.png' %}", title:'With continuous finetuning of target audience, I achieved a high click-through rate and lowered CPC consquently.' }
                           ] );
                         } );
                     </script>
+
                   </div>
                 </div>
                 <div class="clearfix"> </div>
@@ -569,7 +542,6 @@ Phone Chipset (using Hierarchical Bayesian Model).</p>
               Yilan County, Taiwan </p>
           </div>
           <div class="address-right">
-            <p>Call us :  +886 972 095 308</p>
             <p>E-mail : <a href="mailto:ping.lin@kosbrother.com">ping.lin@kosbrother.com</a></p>
           </div>
           <div class="clearfix"></div>

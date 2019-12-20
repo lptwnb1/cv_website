@@ -33,7 +33,7 @@ body a:hover{
 }
 /*--baner--*/
 .banner {
-	background:url(../images/a.jpg)no-repeat center 0px;
+	background:url(../images/IMGa2.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -86,8 +86,16 @@ ul.address {
     padding-top: 0.5em;
 }
 ul.address li {
-    display: block;
+    float: left;
 }
+ul.address li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
 ul.address li ul.address-text li {
     display: inline-block;
     font-size: 1.2em;
@@ -146,7 +154,7 @@ h3.title {
 	margin-bottom: 1em;
 }
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #999;
     line-height: 1.8em;
 }
@@ -804,10 +812,6 @@ h3.title {
 h3.title {
     font-size: 3.3em;
     margin-bottom: 0.6em;
-}
-#swipebox-title {
-    font-size: 1.5em;
-    color: blue;
 }
 }
 @media(max-width:768px){
