@@ -332,7 +332,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </a>
                   </div>
                 </div>
-                <!-- delete ongoing project -->
+                <div class="col-md-4 portfolio-grids">
+                  <div class="grid">
+                    <a href="{% static "images/g7.png" %}" class='programming_course'>
+                      <img src="{% static "images/g7.png" %}" alt="" class="img-responsive"/>
+                      <div class="figcaption">
+                        <h3>Programing Courses</span></h3>
+                        <p>Python, SQL, Algorithm, Linear Algebra
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
                     <a href="{% static "images/g5.png" %}" class="advisor_mammam">
@@ -344,6 +355,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </a>
                   </div>
                 </div>
+                <div class="clearfix"> </div>
                 <div class="col-md-4 portfolio-grids">
                   <div class="grid">
                     <a href="{% static "images/g6.png" %}" class="happy_startup">
@@ -480,6 +492,33 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                           e.preventDefault();
                           $.swipebox( [
                             { href:"{% static 'images/g4.png' %}", title:'I modified an authorized third-party template to practice my coding skills. ' }
+                          ],
+                          {
+                              hideBarsDelay : 0 
+                          } );
+                        } );
+                    </script>
+                  </div>
+                </div>
+                <div class="col-md-4 portfolio-grids">
+                  <div class="grid">
+                    <a href="{% static "images/g7.png" %}" class='programming_course'>
+                      <img src="{% static "images/g7.png" %}" alt="" class="img-responsive"/>
+                      <div class="figcaption">
+                        <h3>Programing Courses</span></h3>
+                        <p>Python, SQL, Algorithm, Linear Algebra
+                        </p>
+                      </div>
+                    </a>
+                    <script type="text/javascript">
+                      $( '.programming_course' ).click( function( e ) {
+                          e.preventDefault();
+                          $.swipebox( [
+                            { href:"{% static 'images/certificates/python_data_structure.png' %}", title:'online courses certificates' },
+                            { href:"{% static 'images/certificates/using_python_web_data.png' %}", title:'online courses certificates' },
+                            { href:"{% static 'images/certificates/linear_algebra.png' %}", title:'online courses certificates' },
+                            { href:"{% static 'images/certificates/database_with_python.png' %}", title:'online courses certificates' },
+                            { href:"{% static 'images/certificates/algorithm_data_structures.png' %}", title:'online courses certificates' }
                           ],
                           {
                               hideBarsDelay : 0 
