@@ -4,6 +4,15 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+#swipebox-title {
+    padding-right: 50px;
+    font-size: 1.2em;
+}
+
+#swipebox-slider .slide img {
+    max-height: 70%;
+}
+
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -95,8 +104,8 @@ ul.address li a{
 }
 
 .fa {
-  padding: 20px;
-  font-size: 40px;
+  padding: 18px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
   margin: 25px 12px 0 0;

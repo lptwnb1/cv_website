@@ -17,9 +17,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--Custom Theme files-->
   {% load static %}
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style.css' %}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css" integrity="sha256-5KRlt3ls3xVyu0Fv7M6hvDH0wCDqHraymjiBtOAhZZU=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style.css' %}">
 <!--//Custom Theme files-->
 <!--js-->
 <script src="{% static 'js/jquery-1.11.1.min.js' %}"></script> 
@@ -378,7 +378,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             { href:"{% static 'images/nonelking/introduction_novel.png' %}", title:'Some features were added per suggestions from key users, such as allowing them to arrange chapters reversely.' },
                             { href:"{% static 'images/nonelking/article_novel.png' %}", title:'We included typical features for e-readers, such as night mode and bookmark.' },
                             { href:"{% static 'images/nonelking/tablet_novel.png' %}", title:'In response to more tablet users, NovelKing was made compatible with tablets.' },
-                          ] );
+                          ],
+                          {
+                              hideBarsDelay : 0 
+                          }    );
                         } );
                     </script> 
                   </div>
@@ -400,7 +403,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             { href:"{% static 'images/doctor/web_page.png' %}", title:'This was the web view.' },
                             { href:"{% static 'images/doctor/app_1.jpg' %}", title:'Users could refine the search results by locations, one of the key consideration for choosing a doctor.' },
                             { href:"{% static 'images/doctor/app_2.jpg' %}", title:'We collected reviews online and encouraged users to share their experiences.' }
-                          ] );
+                          ],
+                          {
+                              hideBarsDelay : 0 
+                          } );
                         } );
                     </script>
                   </div>
@@ -422,7 +428,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             { href:"{% static 'images/mengmeng/app_2.jpg' %}", title:'We later changed to the orange cat theme after user surveys.' },
                             { href:"{% static 'images/mengmeng/app_3.jpg' %}", title:'Users could share their favorites with friends, which was a popular feature among teenage girls.' },
                             { href:"{% static 'images/mengmeng/app_4.jpg' %}", title:'We incorporated social media interactions in the app. Most of our initial fans were acquired through Facebook.' }
-                          ] );
+                          ],
+                          {
+                              hideBarsDelay : 0 
+                          } );
                         } );
                     </script>
                   </div>
@@ -444,7 +453,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             { href:"{% static 'images/lifehappiness/app1.jpg' %}", title:'Influencer marketing is quite effective among Taiwanese mothers. We host activities and provide cooking tutorials to cultivate fanbase.' },
                             { href:"{% static 'images/lifehappiness/web2.png' %}", title:'Our value propositions are safety and durability. Our products underwent rigorous testings from FDA, SGS, and TÜV.' },
                             { href:"{% static 'images/lifehappiness/app2.jpg' %}", title:'We also distribute quality products from several Taiwanese brands who desire to exploit the potential of online market.' }
-                          ] );
+                          ],
+                          {
+                              hideBarsDelay : 0 
+                          } );
                         } );
                     </script>
                   </div>
@@ -468,7 +480,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                           e.preventDefault();
                           $.swipebox( [
                             { href:"{% static 'images/g4.png' %}", title:'I modified an authorized third-party template to practice my coding skills. ' }
-                          ] );
+                          ],
+                          {
+                              hideBarsDelay : 0 
+                          } );
                         } );
                     </script>
                   </div>
@@ -493,7 +508,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             { href:"{% static 'images/mammam/web1.png' %}", title:'The company originally specializes in high-end designer fabric ODM. I advised them to tap the online retailing market as the growth momentum for the next generation.' },
                             { href:"{% static 'images/mammam/ad1.png' %}", title:'I built its fanpage and notably increased their reach on the internet.' },
                             { href:"{% static 'images/mammam/ad2.png' %}", title:'With continuous finetuning of target audience, I achieved a high click-through rate and lowered CPC consquently.' }
-                          ] );
+                          ],
+                          {
+                              hideBarsDelay : 0 
+                          } );
                         } );
                     </script>
 
@@ -519,11 +537,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       <!--//ResponsiveTabs-->
       <!-- swipe box js -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js" integrity="sha256-Yc+GwTnlWzpuQ6grDKOT67UA8d1M4Fx33JkNqX3Ke50=" crossorigin="anonymous"></script>
-        <script type="text/javascript">
-          jQuery(function($) {
-            $(".swipebox").swipebox();
-          });
-      </script>
       <!-- //swipe box js -->
     </div>
   </div>
